@@ -1,0 +1,107 @@
+.encabezado {
+  background-image: repeating-linear-gradient(to bottom, #8906E6, #18d9f3);
+}
+.encabezado .fuentesNav {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.encabezado nav li a {
+  text-decoration: none;
+  margin: 15px;
+  color: white;
+  border-left: 1px solid #8906E6;
+  border-right: 1px solid #8906E6;
+  padding: 0 15px;
+}
+.encabezado nav li a:hover {
+  background-color: #18d9f3;
+  color: #fafafa;
+}
+
+footer {
+  background-color: #8906E6;
+  color: #4c09e8;
+}
+
+.footer_phrese {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.btn-custom-color {
+  background-color: #8906E6;
+  border-color: white;
+  color: white;
+}
+.btn-custom-color:hover {
+  background-color: #18d9f3;
+  border-color: white;
+}
+
+p {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.p_text {
+  font-size: 2rem;
+  font-weight: 50;
+}
+
+.p_text_titulo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-body, .p_text_titulo, .form-text, .form-label {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #010101;
+}
+
+.tituloSummary {
+  background-image: linear-gradient(to top, #8906E6, #18d9f3);
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.contenedor_img {
+  margin: 0 auto; /* Centra horizontalmente el contenedor */
+  width: 100%; /* Ancho del contenedor */
+  height: 270px; /* Altura del contenedor */
+  border-radius: 0; /* Sin redondeo, forma rectangular */
+  overflow: hidden; /* Recorta contenido que se desborde */
+  text-align: center;
+}
+
+.picture {
+  display: inline-block; /* Permite que la imagen se centre horizontalmente */
+}
+
+.card-body {
+  background-color: #4c09e8;
+  color: white;
+  text-align: center;
+  text-transform: none;
+  padding: 50px;
+  border: none;
+}
+
+/*# sourceMappingURL=estilo.css.map */

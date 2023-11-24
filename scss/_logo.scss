@@ -1,0 +1,13 @@
+.contenedor_img {
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+    width: 100%; /* Ancho del contenedor */
+    height: 270px; /* Altura del contenedor */
+    border-radius: 0; /* Sin redondeo, forma rectangular */
+    overflow: hidden; /* Recorta contenido que se desborde */
+    text-align: center;
+}
+
+.picture {
+    display: inline-block; /* Permite que la imagen se centre horizontalmente */
+}
+

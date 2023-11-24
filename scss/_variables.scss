@@ -1,0 +1,17 @@
+$primary-color: #8906E6;
+$secondary-color: #18d9f3;
+$background-color:#010101;
+$text-color: white;
+$link-color: white;
+$hover-background-color: $secondary-color;
+$hover-text-color: #fafafa;
+$card-body-background: #4c09e8;
+
+@mixin footer_phrese {
+    font-size: 1.5rem;
+    color: $text-color;
+    text-align: center;
+    font-weight: bolder;
+}
+
+

@@ -1,0 +1,12 @@
+@import 'variables';
+
+.btn-custom-color {
+    background-color: $primary-color; 
+    border-color: $text-color; 
+    color: $text-color;
+
+    &:hover {
+        background-color: $hover-background-color; 
+        border-color: $text-color;
+    }
+}

@@ -1,0 +1,24 @@
+@import 'variables';
+
+.encabezado {
+    background-image: repeating-linear-gradient(to bottom, #8906E6,#18d9f3,);
+
+    .fuentesNav {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    nav li a {    
+        text-decoration: none;
+        margin: 15px;
+        color: $link-color;
+        border-left: 1px solid $primary-color;
+        border-right: 1px solid $primary-color;
+        padding: 0 15px;
+
+        &:hover {
+            background-color: $hover-background-color;
+            color: $hover-text-color;
+        }
+    }
+}
